@@ -1,4 +1,6 @@
 import logos from "../../asset/Group 1330.png";
+import logo from "../../asset/Group 1332.png";
+import logoss from "../../asset/Group 1334.png";
 
 export const SeeUsData = [
   {
@@ -8,15 +10,15 @@ export const SeeUsData = [
     image: logos,
   },
   {
-    title: "Easy-its All About APIS",
+    title: "Connected - We’ve Got You Back",
     description:
-      "Our products can smoothly connected to your application via our purposesful APIs. All data, functionality, and applications management features are available via a rest api, complaint to the open api 3.0 specification",
-    image: logos,
+      "Save yourself the time and hassle of setting up and maintaining complex integration layers. Our InvestTech solutions integrate seamlessly with popular market data providers and core banking system providers.",
+    image: logo,
   },
   {
-    title: "Easy-its All About APIS",
+    title: "Secure",
     description:
-      "Our products can smoothly connected to your application via our purposesful APIs. All data, functionality, and applications management features are available via a rest api, complaint to the open api 3.0 specification",
-    image: logos,
+      "We are ISO certified and have externally validated policies and procedures, including a solid cyber resilience program and business continuity plan.`",
+    image: logoss,
   },
 ];
