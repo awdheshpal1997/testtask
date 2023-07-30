@@ -6,7 +6,7 @@ import appllestore from "../../asset/apple-store.png";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-light-gray flex px-28 py-16">
+    <div className="w-full bg-light-gray flex sm:px-28 px-4 py-16 flex-col-reverse justify-center items-center sm:flex-row">
       <div className="w-1/2">
         {FooterAddress.map((item) => (
           <div>
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 flex flex-col-reverse sm:flex-col">
         <div className="flex items-center justify-between">
           <div>
             {FooterLinks.map((item, index) => (
@@ -30,13 +30,18 @@ const Footer = () => {
               <p className="">{item}</p>
             ))}
           </div>
-          <img src={headerLogo} alt="newLogo" />
+          <img className="hidden sm:block" src={headerLogo} alt="newLogo" />
         </div>
         <div>
           <div>
+            <div className="flex justify-center">
+              <img className="sm:hidden" src={headerLogo} alt="newLogo" />
+            </div>
             <p>Download our app to start Investing</p>
-            <img src={playstore} alt="googlelogo" />
-            <img src={appllestore} alt="applelogo" />
+            <div className="flex">
+              <img width={200} height={50} src={playstore} alt="googlelogo" />
+              <img width={400} src={appllestore} alt="applelogo" />
+            </div>
           </div>
           <p>
             Elever Investment Adviser Private Limited ("Elever") is a SEBI

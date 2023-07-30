@@ -3,7 +3,7 @@ import { accountSection } from "./constants";
 
 const AccountSection = () => {
   return (
-    <div className="grid grid-cols-4 gap-4 justify-center px-96 py-14 z-[999] relative">
+    <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-4 justify-center sm:px-96 py-72 place-items-center z-[999] relative">
       {accountSection.map((item) => (
         <div>
           <img src={item.image} alt="sectionimage" />

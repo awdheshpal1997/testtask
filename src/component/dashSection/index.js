@@ -5,8 +5,8 @@ import image1350 from "../../asset/Frame1350.png";
 
 const DashSection = () => {
   return (
-    <div className="flex h-90">
-      <div className="w-6/12 pl-96 pt-16">
+    <div className="flex h-90 ">
+      <div className="sm:w-6/12 sm:pl-96 sm:pt-16 sm:mt-14 w-full mt-90">
         <p className="font-bold text-3xl pb-12">We Tech your money.</p>{" "}
         <p className="text-xl pb-6 text-light-text">
           Elever is a hybrid, robo-advisory firm that offers a range of
@@ -17,25 +17,11 @@ const DashSection = () => {
           Get to know us
         </button>
       </div>
-      <div className="absolute top-[-89px] right-[0] z-[0]">
+      <div className="absolute top-[0px] sm:w-5/12 sm:top-[-89px] sm:right-[0] z-[0]">
+        <img className="absolute" src={image34} alt="backImage" />
+        <img className="relative " src={image33} alt="backImage" />
         <img
-          className="absolute"
-          src={image34}
-          height={859}
-          width={848}
-          alt="backImage"
-        />
-        <img
-          className="relative"
-          src={image33}
-          height={859}
-          width={848}
-          alt="backImage"
-        />
-        <img
-          className="relative bottom-[652px] left-[161px]"
-          height={532}
-          width={632}
+          className="relative sm:bottom-[652px] sm:left-[161px] bottom-[466px] w-9/12 left-[120px]"
           src={image1350}
           alt="banner"
         />

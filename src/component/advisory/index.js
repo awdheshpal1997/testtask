@@ -20,10 +20,10 @@ const Advisory = () => {
       style={{ "--image-url": `url(${imgaee})` }}
       className="bg-[image:var(--image-url)] bg-no-repeat bg-cover rounded-half p-16"
     >
-      <p className="font-bold text-white text-4xl px-44">Our Advisory Stack</p>
-      <div className="font-bold text-white text-xl flex items-center justify-between px-96 pt-12 border-b border-white">
+      <p className="font-bold text-white text-4xl sm:px-44">Our Advisory Stack</p>
+      <div className="font-bold text-white text-xl flex items-center justify-between sm:px-96 pt-12 border-b border-white">
         <button
-          className={`w-2/6 ${
+          className={`sm:w-2/6 ${
             isButtonClicked.Corporate ? "border-b-4 border-white" : ""
           }`}
           onClick={(e) => handleButtonClick("corporate")}
@@ -31,7 +31,7 @@ const Advisory = () => {
           Corporate
         </button>
         <button
-          className={`w-2/6  ${
+          className={`sm:w-2/6  ${
             isButtonClicked.Retail ? "border-b-4 border-white" : ""
           }`}
           onClick={(e) => handleButtonClick("Retail")}
@@ -39,7 +39,7 @@ const Advisory = () => {
           Retail
         </button>
         <button
-          className={`w-2/6 z-[999] relative ${
+          className={`sm:w-2/6 z-[999] relative ${
             isButtonClicked.White ? "border-b-4 border-white" : ""
           }`}
           onClick={(e) => handleButtonClick("White")}
@@ -47,8 +47,8 @@ const Advisory = () => {
           White-Lable
         </button>
       </div>
-      <div className="flex items-center justify-between px-44">
-        <div className="w-4/12">
+      <div className="sm:flex items-center justify-between sm:px-44">
+        <div className="sm:w-4/12">
           <p className="font-bold text-white text-3xl pb-8">
             Essential Financial stack for every business.
           </p>
