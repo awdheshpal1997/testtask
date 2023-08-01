@@ -1,8 +1,6 @@
 import React from "react";
 import { FooterAddress, FooterData, FooterLinks } from "./constants";
 import headerLogo from "../../asset/logo.png";
-import playstore from "../../asset/play-store.png";
-import appllestore from "../../asset/apple-store.png";
 
 const Footer = () => {
   return (
@@ -38,10 +36,6 @@ const Footer = () => {
               <img className="sm:hidden" src={headerLogo} alt="newLogo" />
             </div>
             <p>Download our app to start Investing</p>
-            <div className="flex">
-              <img width={200} height={50} src={playstore} alt="googlelogo" />
-              <img width={400} src={appllestore} alt="applelogo" />
-            </div>
           </div>
           <p>
             Elever Investment Adviser Private Limited ("Elever") is a SEBI

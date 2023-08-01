@@ -3,7 +3,7 @@ import { SeeUsData } from "./constants";
 
 const SeeUs = () => {
   return (
-    <div className="sm:mx-96 my-20 px-14 py-6 bg-light-gray ">
+    <div className="xl:mx-96 lg:mx-52 md:44 sm:32 my-20 px-14 py-6 bg-light-gray ">
       <p className="text-black font-bold text-xl pb-12">What See Us Apart</p>
       {SeeUsData.map((item, index) => (
         <div

@@ -3,12 +3,12 @@ import headerLogo from "../../asset/logo.png";
 
 const Header = () => {
   return (
-    <header className="p-4 sm:pl-96 z-[9999] relative">
+    <header className="p-4 sm:pl-8 md:pl-32 lg:pl-14 z-[9999] relative">
       <div className="flex items-center justify-between">
         <div className="text-black text-lg font-semibold">
           <img src={headerLogo} alt="logo" />
         </div>
-        <nav className="hidden md:flex space-x-4">
+        <nav className="hidden md:flex space-x-14">
           <a href="/about" className="text-black" >
             About Us
           </a>

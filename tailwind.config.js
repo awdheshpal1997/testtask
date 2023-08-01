@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     minWidth: {
-      'mobile': '500px',
+      'mobile': '350px',
     },
     extend: {
       colors: {
