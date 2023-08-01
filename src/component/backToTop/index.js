@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 
-import logo from '../../asset/back_to_top_icon.svg';
+import logo from '../../asset/image 43.png';
 
 const Y_OFFSET_LIMIT = 300;
 

@@ -1,6 +1,6 @@
 import logos from "../../asset/Group 1330.png";
 import logo from "../../asset/Group 1332.png";
-import logoss from "../../asset/Group 1334.png";
+import logoss from "../../asset/Group1334.png";
 
 export const SeeUsData = [
   {

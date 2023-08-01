@@ -11,6 +11,8 @@ module.exports = {
         buttoncolor: "#6C297C",
         "light-text": "#00000080",
         "body-color": "#FBF7FB",
+        "ligth-blue": "#E1E3FC"
+
       },
       borderRadius: {
         half: "50px",
