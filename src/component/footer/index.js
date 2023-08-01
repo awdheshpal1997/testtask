@@ -1,11 +1,15 @@
 import React from "react";
 import { FooterAddress, FooterData, FooterLinks } from "./constants";
 import headerLogo from "../../asset/logo.png";
+import google from '../../asset/google.png'
+import apple from '../../asset/apple.png'
+import Social from "../social";
+
 
 const Footer = () => {
   return (
-    <div className="w-full bg-light-gray flex sm:px-28 px-4 py-16 flex-col-reverse justify-center items-center sm:flex-row">
-      <div className="w-1/2">
+    <div className="w-full bg-light-gray flex sm:px-28 px-4 py-16 flex-col-reverse justify-center sm:items-start items-center sm:flex-row">
+      <div className="sm:w-1/2 w-full">
         {FooterAddress.map((item) => (
           <div>
             <p className="text-black font-bold	">{item.title}</p>
@@ -15,29 +19,34 @@ const Footer = () => {
             <p>{item.cinkey}</p>
           </div>
         ))}
+        <Social />
       </div>
-      <div className="w-1/2 flex flex-col-reverse sm:flex-col">
+      <div className="sm:w-1/2 w-full flex flex-col-reverse sm:flex-col">
         <div className="flex items-center justify-between">
-          <div>
+          <div className="pb-4">
             {FooterLinks.map((item, index) => (
-              <p className="">{item}</p>
+              <p className="pb-4">{item}</p>
             ))}
           </div>
-          <div>
+          <div className="pb-4">
             {FooterData.map((item, index) => (
-              <p className="">{item}</p>
+              <p className="pb-4">{item}</p>
             ))}
           </div>
-          <img className="hidden sm:block" src={headerLogo} alt="newLogo" />
+          <img className="hidden sm:block w-2/12" src={headerLogo} alt="newLogo" />
         </div>
         <div>
-          <div>
+          <div className="text-center sm:text-left">
             <div className="flex justify-center">
-              <img className="sm:hidden" src={headerLogo} alt="newLogo" />
+              <img className="sm:hidden pb-8" src={headerLogo} alt="newLogo" />
             </div>
-            <p>Download our app to start Investing</p>
+            <p className="pb-4">Download our app to start Investing</p>
+            <div className="flex pb-4 justify-center items-center sm:justify-start sm:items-left">
+              <img src={google} alt="google" className="w-4/12 mr-2" />
+              <img src={apple} alt="apple" className="w-4/12 mr-2" />
+            </div>
           </div>
-          <p>
+          <p className="text-center sm:text-left">
             Elever Investment Adviser Private Limited ("Elever") is a SEBI
             registered Investment Adviser (Registration No. INA200016102).
             Investment in securities market are subject to market risks. Read

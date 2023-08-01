@@ -17,6 +17,7 @@ module.exports = {
       },
       spacing: {
         90: "80vh",
+        43:'43px'
       },
     },
     fontFamily: {

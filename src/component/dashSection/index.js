@@ -6,7 +6,7 @@ import image1350 from "../../asset/Frame1350.png";
 const DashSection = () => {
   return (
     <div className="flex h-90">
-      <div className="sm:w-6/12 sm:pl-8 md:pl-32 lg:pl-14 sm:pt-16 sm:mt-14 w-full mt-32 sm:text-left text-center">
+      <div className="sm:w-6/12 sm:pl-8 md:pl-28 lg:pl-32 sm:pt-16 sm:mt-14 w-full mt-32 sm:text-left text-center">
         <p className="font-bold text-3xl pb-12">We Tech your money.</p>{" "}
         <p className="text-xl pb-6 text-light-text">
           Elever is a hybrid, robo-advisory firm that offers a range of
